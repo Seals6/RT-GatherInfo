@@ -1,0 +1,45 @@
+site_name: 信息收集的艺术
+site_description: 红蓝对抗中的信息收集
+site_url: https://cyent.github.io/markdown-with-mkdocs-material/
+
+repo_name: 'Seals6/RT-GatherInfo'
+repo_url: 'https://github/Seals6/RT-GatherInfo'
+
+theme:
+  name: material
+  palette:
+    primary: 'teal'
+    accent: 'pink'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+nav:
+  - 首页: README.md
+  - 企业信息收集: 企业相关信息/README.md
+  - 资产信息收集:
+    - 移动端: 资产信息收集/移动端/README.md
+    - web端: 资产信息收集/web端/README.md
