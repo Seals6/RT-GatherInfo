@@ -1,12 +1,14 @@
-site_name: 信息收集的艺术
+site_name: RT-GatherInfo
 site_description: 红蓝对抗中的信息收集
 site_url: https://cyent.github.io/markdown-with-mkdocs-material/
 
 repo_name: 'Seals6/RT-GatherInfo'
-repo_url: 'https://github/Seals6/RT-GatherInfo'
+repo_url: 'https://github.com/Seals6/RT-GatherInfo'
 
 theme:
   name: material
+  features:
+    - navigation.tabs
   palette:
     primary: 'teal'
     accent: 'pink'
@@ -38,8 +40,11 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - 首页: README.md
-  - 企业信息收集: 企业相关信息/README.md
-  - 资产信息收集:
-    - 移动端: 资产信息收集/移动端/README.md
-    - web端: 资产信息收集/web端/README.md
+  - Home: Home.md
+  - RedTeam思路: RT-Mind.md
+  - 姿势大全:
+    - 企业信息收集: 企业信息收集/README.md
+    - 资产信息收集: 
+      - 根域收集: 资产信息收集/01_Domain.md
+      - 子域名收集: 资产信息收集/02_SubDomain.md
+
