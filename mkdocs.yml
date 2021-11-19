@@ -1,6 +1,5 @@
 site_name: RT-GatherInfo
 site_description: 红蓝对抗中的信息收集
-site_url: https://cyent.github.io/markdown-with-mkdocs-material/
 
 repo_name: 'Seals6/RT-GatherInfo'
 repo_url: 'https://github.com/Seals6/RT-GatherInfo'
@@ -40,7 +39,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - Home: Home.md
+  - Home: index.md
   - RedTeam思路: RT-Mind.md
   - 姿势大全:
     - 企业信息收集: 企业信息收集/README.md
